@@ -1,0 +1,7 @@
+hours1 = int(input("Enter hours1: "))
+minutes1 = int(input("Enter minutes1: "))
+seconds1 = int(input("Enter seconds1: "))
+hours2 = int(input("Enter hours2: "))
+minutes2 = int(input("Enter minutes2: "))
+seconds2 = int(input("Enter seconds2: "))
+print("Difference in seconds: " + str(((hours2 - hours1) * 3600) + ((minutes2 - minutes1) * 60) + (seconds2 - seconds1)))
